@@ -1,6 +1,6 @@
 # dom1no — Week 6 Gherkin feature narratives
 
-These feature files describe intended behavior for the two detailed use cases. They are **BDD narratives**, not proof that the app is implemented or that Cucumber tests currently run.
+These feature files describe intended behavior for the two detailed use cases. They are **BDD narratives**, not proof that the app is implemented. A Cucumber.js demonstration executes one scenario in memory; the remaining scenarios are not executable application tests.
 
 | Feature | Detailed use case | Scenarios |
 | --- | --- | --- |
@@ -11,20 +11,19 @@ These feature files describe intended behavior for the two detailed use cases. T
 
 - **DUC-01:** The `Start a new game` scenario is supporting setup from the team's broader gameplay activity diagram; the detailed use case starts after a match has been created. The four-player setup is taken from that diagram and does not settle the rules profile (`RP-01`). The blocked-game scenario intentionally leaves scoring and tie-breaking undefined until the team approves `RP-01`.
 - **DUC-02:** The detailed use case is specifically *sending* a request. Accept/decline scenarios are included because the broader team activity diagram includes them, **not** because acceptance/decline have been reclassified as steps in DUC-02. The existing-friend case and exact feedback wording require confirmation under `DEC-09`.
-- Scenario steps are written as intended behavior. There are no executable step definitions in this documentation-only repository yet.
+- Scenario steps describe intended behavior. The in-memory demonstration has six step definitions for one friend-search scenario only; it does not exercise a dom1no application.
 
-## Teacher's proof / evidence checklist
+## Evidence and review checklist
 
-1. Open each `.feature` in an IDE with Gherkin/Cucumber syntax support, showing colored `Feature`, `Scenario`, `Given`, `When`, and `Then` keywords. Save a genuine screenshot.
-2. To demonstrate step-definition autocomplete, configure a real Cucumber language binding and step-definition library in the actual project. Type a step using real IDE completion and capture a genuine screenshot of the suggestion list; do not use a simulated screenshot as proof.
+1. The gameplay and friends screenshots below show Gherkin syntax highlighting in VS Code.
+2. The autocomplete screenshot shows a step suggestion from the JavaScript step definitions, not a simulated suggestion.
 3. Verify each decision branch against the corresponding activity diagram and resolve any discrepancies with the team.
-4. Link these narratives from DUC-01 and DUC-02 and document AI assistance in the Week 6 blog post.
-5. Optional: implement a small working Cucumber example with a step-definition library; do not claim the tests run until they actually do.
+4. The narratives are linked from their detailed use cases, and the Week 6 blog draft documents AI assistance.
+5. The runnable example is an in-memory demonstration only; do not describe it as a test of the application or claim all 11 scenarios are executable.
 
 ## Status
 
-Draft for team review. The in-memory demonstration below runs only the named
-scenario; the feature narratives are not tests of an implemented application.
+Draft for team review. The demonstration below runs only the named scenario.
 
 ## Executable demonstration
 
@@ -42,3 +41,9 @@ steps. Only this one scenario has step definitions; the other feature scenarios
 remain descriptive narratives. The root `.vscode` settings point the official
 Cucumber extension at these feature and step-definition files for editor
 completion, and `.vscode/extensions.json` recommends the extension.
+
+## VS Code evidence
+
+- **Gameplay Gherkin highlighting:** [week6-gherkin-gameplay-highlighting.png](../evidence/week6-gherkin-gameplay-highlighting.png)
+- **Friends Gherkin highlighting:** [week6-gherkin-friends-highlighting.png](../evidence/week6-gherkin-friends-highlighting.png)
+- **Step-definition autocomplete:** [week6-cucumber-step-autocomplete.png](../evidence/week6-cucumber-step-autocomplete.png)
