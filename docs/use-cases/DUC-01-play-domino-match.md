@@ -8,6 +8,8 @@
 **Related SRS:** [dom1no_SRS_v0.2.md](../../dom1no_SRS_v0.2.md), especially `FR-GAME-03`–`FR-GAME-16`; for online matches also `FR-ONL-03`–`FR-ONL-10`.  
 **Design references:** [Figma prototype](https://www.figma.com/design/kJDrWOX1E7Uci3U2Gp9Cvs/Untitled?node-id=0-1&t=MYacNVOjFRvgLBVh-1)
 
+**Gherkin feature narrative:** [DUC-01-play-domino-match.feature](../features/DUC-01-play-domino-match.feature)
+
 ## 1. Brief description
 
 A player completes a domino match by taking turns, placing valid tiles, and seeing the match result. The same core gameplay applies whether the opponent is a computer or another player. Starting the match and choosing an opponent are treated as supporting interactions; this use case focuses on **playing a match**.
