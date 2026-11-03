@@ -23,4 +23,22 @@ These feature files describe intended behavior for the two detailed use cases. T
 
 ## Status
 
-Draft for team review. Gherkin syntax has been reviewed by inspection; no Cucumber parser/test runner has been used to execute or validate these files.
+Draft for team review. The in-memory demonstration below runs only the named
+scenario; the feature narratives are not tests of an implemented application.
+
+## Executable demonstration
+
+The repository includes a minimal JavaScript Cucumber.js setup for the existing
+`Find a player by username` scenario:
+
+```sh
+npm install
+npm run test:gherkin-demo
+```
+
+This is an **in-memory demonstration**, not a test of a dom1no application:
+there is no implemented application or production integration behind these
+steps. Only this one scenario has step definitions; the other feature scenarios
+remain descriptive narratives. The root `.vscode` settings point the official
+Cucumber extension at these feature and step-definition files for editor
+completion, and `.vscode/extensions.json` recommends the extension.

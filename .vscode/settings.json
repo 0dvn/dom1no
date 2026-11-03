@@ -1,0 +1,13 @@
+{
+  "cucumber.features": ["docs/features/**/*.feature"],
+  "cucumber.glue": ["tests/steps/**/*.js"],
+  "[cucumber]": {
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": false,
+      "strings": true
+    },
+    "editor.suggestOnTriggerCharacters": true,
+    "editor.inlineSuggest.enabled": false
+  }
+}
