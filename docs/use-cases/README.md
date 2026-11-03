@@ -5,6 +5,8 @@ This folder documents **one user goal per use case**, using a RUP-inspired struc
 - [DUC-01 — Play a Domino Match](DUC-01-play-domino-match.md)
 - [DUC-02 — Send a Friend Request](DUC-02-send-friend-request.md)
 
+The related [Week 6 Gherkin feature narratives](../features/README.md) describe acceptance scenarios for these use cases.
+
 The numbering `DUC-*` is intentionally different from the SRS appendix's `UC-*` diagram IDs. The latter are categories of overview diagrams, **not** the IDs for the detailed use-case specifications.
 
 The existing team overview diagrams are kept in [`../diagrams/`](../diagrams/), and UI snapshots are kept in [`../mockups/`](../mockups/). Editable designs: [Figma](https://www.figma.com/design/kJDrWOX1E7Uci3U2Gp9Cvs/Untitled?node-id=0-1&t=MYacNVOjFRvgLBVh-1).

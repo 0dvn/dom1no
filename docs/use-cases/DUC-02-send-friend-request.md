@@ -9,6 +9,8 @@
 **Related SRS:** [dom1no_SRS_v0.2.md](../../dom1no_SRS_v0.2.md), `FR-FRD-01`, `FR-FRD-03`, `FR-FRD-04`; later acceptance belongs to `FR-FRD-05`–`FR-FRD-07`.  
 **Design references:** [Figma prototype](https://www.figma.com/design/kJDrWOX1E7Uci3U2Gp9Cvs/Untitled?node-id=0-1&t=MYacNVOjFRvgLBVh-1)
 
+**Gherkin feature narrative:** [DUC-02-send-friend-request.feature](../features/DUC-02-send-friend-request.feature)
+
 ## 1. Brief description
 
 An authenticated player finds another player and sends them a friend request. A friendship does **not** exist just because the request was sent; accepting it is a separate user goal.
