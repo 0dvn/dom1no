@@ -2,7 +2,9 @@
   "name": "dom1no-gherkin-demo",
   "private": true,
   "scripts": {
-    "test:gherkin-demo": "cucumber-js docs/features/DUC-02-send-friend-request.feature --name \"Find a player by username\" --require tests/steps/friend-search.steps.js"
+    "test:gherkin-demo": "cucumber-js docs/features/DUC-02-send-friend-request.feature --name \"Find a player by username\" --require tests/steps/common.steps.js --require tests/steps/friend-search.steps.js",
+    "test:gherkin-friends": "cucumber-js docs/features/DUC-02-send-friend-request.feature --require tests/steps/common.steps.js --require tests/steps/friend-search.steps.js",
+    "test:gherkin-domino": "cucumber-js docs/features/DUC-01-play-domino-match.feature --require tests/steps/common.steps.js --require tests/steps/domino-match.steps.js"
   },
   "devDependencies": {
     "@cucumber/cucumber": "^13.3.0"
