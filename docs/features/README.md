@@ -22,10 +22,8 @@ The search runs directly in Friends, matching the wireframe. VS Code settings co
 
 ## IDE evidence
 
-The Week 5 requirements ask for syntax highlighting and step-definition autocomplete evidence; full implementation/execution is later work. Existing captures retain their `week6` filenames to avoid breaking published links:
-
 - [Gameplay Gherkin highlighting](../evidence/week6-gherkin-gameplay-highlighting.png)
 - [Friends Gherkin highlighting](../evidence/week6-gherkin-friends-highlighting.png)
 - [Step-definition autocomplete](../evidence/week6-cucumber-step-autocomplete.png)
 
-These captures show an earlier text revision and editor assistance. They remain historical evidence of highlighting/completion, not screenshots of the current scenarios or proof that the application works. Fresh captures are needed to demonstrate the revised text. The use-case flows and scenarios should be reviewed alongside their activity diagrams; unresolved policy is called out rather than replaced with invented acceptance results.
+The captures demonstrate highlighting and completion on an earlier revision of the feature text, not application behavior.

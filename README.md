@@ -30,7 +30,7 @@ UML sources and their committed SVG renders are in [docs/diagrams](docs/diagrams
 
 ## Working principles
 
-Adopted on 9 November 2026; earlier weekly posts did not explicitly track them.
+Adopted on 9 November 2026.
 
 1. **Finish a small playable core before adding extras.** Make one complete game work before adding computer opponents, profile customization or statistics.
 2. **Specify behavior once and keep examples consistent.** The rules explain behavior; diagrams, wireframes and scenarios illustrate it. Update affected examples when a rule changes.
@@ -42,7 +42,3 @@ Each new blog update should briefly explain what supported or challenged these p
 
 - [Team blog](https://dom1no.nulkode.dev) — published progress and peer comments
 - [Unpublished correction post](docs/blog/2026-11-09-repository-corrections.md) — concrete AI before/after example and verification results
-
-Use the SVGs for current diagrams and wireframes. The original sequence PNG supports the AI before/after example; `docs/evidence/` contains the IDE captures used for academic evidence.
-
-The course SRS/Use Case templates and current lecturer whiteboard still need to be checked. A public YouTrack/Scrumboard link, outgoing peer-review evidence and comment-moderation settings have not been verified here.

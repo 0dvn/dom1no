@@ -8,14 +8,10 @@
 | Gameplay interaction example | [SVG](gameplay-sequence.svg) | [PlantUML](gameplay-sequence.puml) |
 | Friend-request interaction example | [SVG](friends-sequence.svg) | [PlantUML](friends-sequence.puml) |
 
-The activities describe the two detailed user goals. Sequence diagrams are supporting interaction examples, not additional use cases or an exhaustive protocol design.
-
 Render with Java and PlantUML 1.2026.4:
 
 ```sh
 java -Djava.awt.headless=true -jar /path/to/plantuml-1.2026.4.jar -tsvg -failfast2 docs/diagrams/*.puml
 ```
 
-Run this from the repository root and commit the sources and SVGs together. The overview uses PlantUML's Smetana layout, so Graphviz is not needed. The renderer is a tool, not an application dependency.
-
-The older sequence PNG is the before-image in the [AI-assisted correction example](../blog/2026-11-09-repository-corrections.md#concrete-ai-assisted-correction).
+Run from the repository root and commit the sources and SVGs together. Graphviz is not required.
