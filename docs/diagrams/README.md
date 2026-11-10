@@ -18,4 +18,4 @@ java -Djava.awt.headless=true -jar /path/to/plantuml-1.2026.4.jar -tsvg -failfas
 
 Run this from the repository root and commit the sources and SVGs together. The overview uses PlantUML's Smetana layout, so Graphviz is not needed. The renderer is a tool, not an application dependency.
 
-Use the SVGs for current designs. The PNGs remain for [published blog links](../../README.md#reporting-and-evidence).
+The older sequence PNG is the before-image in the [AI-assisted correction example](../blog/2026-11-09-repository-corrections.md#concrete-ai-assisted-correction).

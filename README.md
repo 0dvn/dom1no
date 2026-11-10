@@ -43,6 +43,6 @@ Each new blog update should briefly explain what supported or challenged these p
 - [Team blog](https://dom1no.nulkode.dev) — published progress and peer comments
 - [Unpublished correction post](docs/blog/2026-11-09-repository-corrections.md) — concrete AI before/after example and verification results
 
-The PNGs in `docs/diagrams/` and `docs/mockups/` remain because the [published Week 4 post](https://dom1no.nulkode.dev/2026/10/25/week-4-from-requirements-to-diagrams-and-ui-mockups/) embeds their exact paths. Use the SVGs for current designs; do not move or replace the PNGs without updating the post. `docs/evidence/` contains the IDE captures used for academic evidence, including images embedded by the [Week 5 post](https://dom1no.nulkode.dev/2026/11/03/week-5-from-use-cases-to-gherkin-feature-files/). Keep their existing filenames too.
+Use the SVGs for current diagrams and wireframes. The original sequence PNG supports the AI before/after example; `docs/evidence/` contains the IDE captures used for academic evidence.
 
 The course SRS/Use Case templates and current lecturer whiteboard still need to be checked. A public YouTrack/Scrumboard link, outgoing peer-review evidence and comment-moderation settings have not been verified here.
